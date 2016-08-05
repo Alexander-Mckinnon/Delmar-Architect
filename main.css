@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+
+.horizontal-nav{
+    margin-bottom: 100px;
+}
+
+nav{
+    color:white;
+    background-color:black;
+}
+
+nav ul{
+    list-style: none;
+    padding:0px;
+    column-count: 3;
+}
+ 
+ 
+#project-image{
+    text-align: center;
+}
+
+#project-image img{
+    max-width: 100%;
+}
+
+#project-nav{
+    text-align: center;
+}
+
+#project-nav ul{
+    column-count:2;
+}
+
+#project-nav li{
+    padding:6.6px;
+    background-color:yellow;
+    color:black;
+    margin-bottom: 9px;
+    height:35px;
+}
+
+#project-nav li:hover{
+    background-color:yellowgreen;
+}
