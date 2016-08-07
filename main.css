@@ -47,3 +47,7 @@ nav ul{
 #project-nav li:hover{
     background-color:yellowgreen;
 }
+
+.project-highlight{
+     background-color:yellowgreen;
+}
