@@ -33,7 +33,7 @@
             
             if(currentPic == -1){
              currentPic = numOfPics -1;
-            $(".img-container img").eq(currentPic).fadeIn().show();
+            $(".img-container img").eq(currentPic).show();
             
             
         } //end nested if
