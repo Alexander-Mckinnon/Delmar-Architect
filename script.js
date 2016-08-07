@@ -9,12 +9,12 @@
          if(currentPic < numOfPics){
              $(".img-container img").eq(currentPic).hide();
              currentPic = currentPic+1;
-             $(".img-container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).fadeIn().show();
               
              
              if(currentPic == numOfPics){
              currentPic = 0;
-             $(".img-container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).fadeIn().show();
          }// nested if
         
 
@@ -28,12 +28,12 @@
         if(currentPic < numOfPics){
             $(".img-container img").eq(currentPic).hide();
              currentPic = currentPic-1;
-             $(".img-container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).fadeIn().show();
               
             
             if(currentPic == -1){
              currentPic = numOfPics -1;
-             $(".img-container img").eq(currentPic).show();
+            $(".img-container img").eq(currentPic).fadeIn().show();
             
             
         } //end nested if
