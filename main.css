@@ -81,7 +81,7 @@ nav ul{
 }
 
 
-@media (max-width:352px){
+@media (max-width:422px){
      .preview-img{
          column-count:1;
      }
