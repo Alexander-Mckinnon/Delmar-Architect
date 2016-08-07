@@ -1,20 +1,20 @@
  $(document).ready(function(){
     var currentPic = 0;
     var numOfPics = 0;
-   $(".container img").hide();
-   $(".container img").eq(currentPic).show();
-    numOfPics = $(".container img").length;
+   $(".img-container img").hide();
+   $(".img-container img").eq(currentPic).show();
+    numOfPics = $(".img-container img").length;
     $(".next").on("click", function(){
      
          if(currentPic < numOfPics){
-             $(".container img").eq(currentPic).hide();
+             $(".img-container img").eq(currentPic).hide();
              currentPic = currentPic+1;
-             $(".container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).show();
               
              
-             if(currentPic == 7){
+             if(currentPic == numOfPics){
              currentPic = 0;
-             $(".container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).show();
          }// nested if
         
 
@@ -26,14 +26,14 @@
     
     $(".prev").on("click", function(){
         if(currentPic < numOfPics){
-            $(".container img").eq(currentPic).hide();
+            $(".img-container img").eq(currentPic).hide();
              currentPic = currentPic-1;
-             $(".container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).show();
               
             
             if(currentPic == -1){
              currentPic = numOfPics -1;
-             $(".container img").eq(currentPic).show();
+             $(".img-container img").eq(currentPic).show();
             
             
         } //end nested if
