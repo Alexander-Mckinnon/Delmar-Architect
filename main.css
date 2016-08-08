@@ -58,7 +58,7 @@ nav ul{
  /*--------School preview CSS---------*/
 
 
-.preview-img{
+#school-preview {
     background-color:grey;
     column-count: 10;
     column-gap:1px;
@@ -67,7 +67,7 @@ nav ul{
 }
 
 
-.preview-img img{
+#school-preview img{
     width:100%;
     display:block;
     height:120px;
@@ -75,19 +75,44 @@ nav ul{
 }
 
  @media (max-width:967px){
-     .preview-img{
+     #school-preview {
          column-count:5;
      }
 }
 
 
 @media (max-width:422px){
-     .preview-img{
+     #school-preview {
          column-count:1;
      }
 }
  /*--------------------------------*/
 
+/*--------Nursing Preview CSS---------*/
+
+
+#nurse-preview {
+    background-color:grey;
+    column-count:3;
+}
+
+
+#nurse-preview img{
+    display:block;
+    height:120px;
+    max-width:100%;
+}
+
+@media (max-width:422px){
+     #nurse-preview {
+         column-count:1;
+     }
+    #nurse-preview img{
+        width:100%;
+    }
+}
+
+ /*--------------------------------*/
 
  /*---------All Image slider related pages----------*/
 
@@ -113,5 +138,4 @@ nav ul{
    width:70px;
     
 }
-
 /*--------------------------------*/
