@@ -6,7 +6,7 @@ body{
 
 
 .horizontal-nav{
-    margin-bottom: 100px;
+     
 }
 
 nav{
@@ -112,7 +112,44 @@ nav ul{
     }
 }
 
- /*--------------------------------*/
+ /*------Retail-preview & residential------*/
+
+ 
+#retail-preview, #residential-preview{
+    background-color:grey;
+    column-count:2;
+}
+
+
+#retail-preview img, #residential-preview img{
+    display:block;
+    max-width:100%;
+    height:120px;
+   
+}
+
+/*------Judicial-Preview------*/
+
+#judicial-preview{
+    display:flex;
+    justify-content: center;
+}
+
+#judicial-preview img{
+    height:350px;
+}
+/*--recration-Preview---*/
+
+#recreation-preview {
+    background-color:grey;
+    column-count:2;   
+}
+
+#recreation-preview img {
+    display:block;
+    height:120px;
+    max-width:100%;
+}
 
  /*---------All Image slider related pages----------*/
 
