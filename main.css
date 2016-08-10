@@ -109,6 +109,7 @@ nav ul{
  /*------------Project specific-------------------*/
 #project-image{
     text-align: center;
+    margin-top:3%;
 }
 
 #project-image img{
