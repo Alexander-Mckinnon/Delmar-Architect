@@ -57,28 +57,28 @@ nav ul{
 .project-nav-highlight{
     background-color:yellowgreen !important;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 3b6e7ef... Revert "Complete!"
 
-
-=======
->>>>>>> parent of 21d004f... sticky footer
+.preview-img-padding{
+    padding:20px;
+    background-color:darkgray;
+    margin-top:2%;
+}
+ 
  /*----History of Firm-------*/
 
 #firm-history{
     text-align: center;
     width:70%;
     float:left;
+    margin-top:3%;
+    background-color:darkgrey;
 }
-
 
 #contact-info{
     text-align: center;
     width:30%;
     float:right;
+    margin-top:3%;
 }
 
 @media(max-width:527px){
@@ -91,17 +91,20 @@ nav ul{
 }
 /*--------------------------*/
  /*----The Team-------*/
+
+#team{
+    background-color:darkgrey;
+    margin:2%;
+    text-align: center;
+}
+
 .eugene{
-    text-align: center;
+    padding-bottom: 5%;
 }
-
 .david{
-    text-align: center;
+    padding-bottom: 5%;
 }
 
-.daniel{
-    text-align: center;
-}
 
  /*------------Project specific-------------------*/
 #project-image{
@@ -115,7 +118,6 @@ nav ul{
 
 
 #school-preview {
-    background-color:grey;
     column-count: 10;
     column-gap:1px;
      
@@ -148,7 +150,6 @@ nav ul{
 
 
 #nurse-preview {
-    background-color:grey;
     column-count:3;
 }
 
@@ -172,7 +173,6 @@ nav ul{
 
  
 #retail-preview, #residential-preview{
-    background-color:grey;
     column-count:2;
 }
 
@@ -184,21 +184,10 @@ nav ul{
    
 }
 
-/*------Judicial-Preview------*/
-
-#judicial-preview{
-    display:flex;
-    justify-content: center;
-}
-
-#judicial-preview img{
-    height:350px;
-}
-/*--recration-Preview---*/
+/*--recreation-Preview---*/
 
 #recreation-preview {
-    background-color:grey;
-    column-count:2;   
+    column-count:2;
 }
 
 #recreation-preview img {
