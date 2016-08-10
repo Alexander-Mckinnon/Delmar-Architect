@@ -6,11 +6,14 @@
 body{
     margin:0px;
     padding:0px;
+<<<<<<< HEAD
     background-color:gray;
     display:flex;
     flex-wrap: wrap;
     height:100vh;
     justify-content: center;
+=======
+>>>>>>> parent of 2500239... Complete!
 }
 
 .horizontal-nav{
@@ -54,44 +57,14 @@ nav ul{
 .project-nav-highlight{
     background-color:yellowgreen !important;
 }
+<<<<<<< HEAD
 
 
  /*----History of Firm-------*/
+=======
+>>>>>>> parent of 2500239... Complete!
 
-#firm-history{
-    text-align: center;
-    width:70%;
-    float:left;
-}
-
-
-#contact-info{
-    text-align: center;
-    width:30%;
-    float:right;
-}
-
-@media(max-width:527px){
-    #firm-history{
-        width:100%;
-    }
-    #contact-info{
-        width:100%;
-    }   
-}
-/*--------------------------*/
- /*----The Team-------*/
-.eugene{
-    text-align: center;
-}
-
-.david{
-    text-align: center;
-}
-
-.daniel{
-    text-align: center;
-}
+ /*-------------------------------*/
 
  /*------------Project specific-------------------*/
 #project-image{
