@@ -1,25 +1,25 @@
  /*---Generic CSS that applies to most pages-------------*/
-body{
-    margin:0px;
+*{
     padding:0px;
+    margin:0px;
+}
+ 
+body, html{
     background-color:gray;
-<<<<<<< HEAD
-    display:flex;
-    flex-wrap: wrap;
     height:100vh;
-    justify-content: center;
-<<<<<<< HEAD
-=======
->>>>>>> parent of 2500239... Complete!
-=======
->>>>>>> parent of 21d004f... sticky footer
-=======
->>>>>>> parent of 3b6e7ef... Revert "Complete!"
 }
 
+.wrapper{
+    min-height:100%;
+    margin-bottom:-199px;
+}
+.wrapper:after{
+    content:"";
+    display:block;
+}
 
-.horizontal-nav{
-     
+#project-nav, .wrapper:after{
+    height:198.1px;
 }
 
 nav{
