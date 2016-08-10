@@ -1,29 +1,28 @@
  /*---Generic CSS that applies to most pages-------------*/
-*{
-    margin:0px;
-    padding:0px;
-}
 body{
     margin:0px;
     padding:0px;
 <<<<<<< HEAD
     background-color:gray;
+<<<<<<< HEAD
     display:flex;
     flex-wrap: wrap;
     height:100vh;
     justify-content: center;
 =======
 >>>>>>> parent of 2500239... Complete!
+=======
+>>>>>>> parent of 21d004f... sticky footer
 }
 
+
 .horizontal-nav{
-    height:20px;
+     
 }
 
 nav{
     color:white;
     background-color:black;
-    flex:0 1 100%;
 }
 
 nav ul{
@@ -34,7 +33,6 @@ nav ul{
  
 #project-nav{
     text-align: center;
-    align-self: flex-end;
 }
 
 #project-nav ul{
@@ -58,8 +56,11 @@ nav ul{
     background-color:yellowgreen !important;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of 21d004f... sticky footer
  /*----History of Firm-------*/
 =======
 >>>>>>> parent of 2500239... Complete!
@@ -78,9 +79,11 @@ nav ul{
 
 
 #school-preview {
+    background-color:grey;
     column-count: 10;
-     background-color:darkgray;
-    padding:20px;
+    column-gap:1px;
+     
+
 }
 
 
@@ -107,13 +110,10 @@ nav ul{
 
 /*--------Nursing Preview CSS---------*/
 
- 
 
 #nurse-preview {
+    background-color:grey;
     column-count:3;
-     background-color:darkgray;
-    padding:20px;
-    
 }
 
 
@@ -136,8 +136,7 @@ nav ul{
 
  
 #retail-preview, #residential-preview{
-     background-color:darkgray;
-    padding:20px;
+    background-color:grey;
     column-count:2;
 }
 
@@ -146,9 +145,8 @@ nav ul{
     display:block;
     max-width:100%;
     height:120px;
+   
 }
- 
-
 
 /*------Judicial-Preview------*/
 
@@ -160,12 +158,11 @@ nav ul{
 #judicial-preview img{
     height:350px;
 }
-/*--recreation-Preview---*/
+/*--recration-Preview---*/
 
 #recreation-preview {
-     background-color:darkgray;
-    padding:20px;
-    column-count:2;
+    background-color:grey;
+    column-count:2;   
 }
 
 #recreation-preview img {
@@ -178,13 +175,14 @@ nav ul{
 
 
 .img-container{
-    flex:0 1 100%;
     text-align: center;
 }
 
 .img-container img{
     max-width:100%;
     height:400px;
+    margin-top:100px;
+    
 }
 
 .img-container .prev{
