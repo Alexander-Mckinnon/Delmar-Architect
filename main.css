@@ -25,20 +25,35 @@ header{
     height:198.1px;
 }
 
+a:link{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+a:visited{
+     color:black;
+     
+}
+a:hover{
+    color:red;
+}
+ 
 nav{
-    color:white;
     background-color:black;
 }
+nav li{
+    background-color: yellow;
+}
 
+nav li:hover{
+    background-color: yellowgreen;
+}
 nav ul{
     list-style: none;
     padding:0px;
     column-count: 3;
 }
  
-#project-nav{
-    text-align: center;
-}
 
 #project-nav ul{
     column-count:2;
@@ -46,16 +61,11 @@ nav ul{
 
 #project-nav li{
     padding:6.6px;
-    background-color:yellow;
-    color:black;
     margin-bottom: 9px;
     height:35px;
-    text-align: center;
+   
 }
 
-#project-nav li:hover{
-    background-color:yellowgreen;
-}
 
 .project-nav-highlight{
     background-color:yellowgreen !important;
@@ -66,6 +76,7 @@ nav ul{
     background-color:darkgray;
     margin-top:2%;
 }
+ 
  
  /*----History of Firm-------*/
 
@@ -144,21 +155,21 @@ nav ul{
 
 /*--------Nursing Preview CSS---------*/
 
-
 #nurse-preview {
-    column-count:3;
+    display:flex;
+    justify-content: space-between;
 }
 
-
+ 
 #nurse-preview img{
-    display:block;
-    height:120px;
     max-width:100%;
+    height:120px;
+    display:block;
 }
 
 @media (max-width:422px){
      #nurse-preview {
-         column-count:1;
+         display:block;
      }
     #nurse-preview img{
         width:100%;
@@ -169,32 +180,31 @@ nav ul{
 
  
 #retail-preview, #residential-preview{
-    column-count:2;
+    display:flex;
+    justify-content: space-between;
      
 }
 
-
 #retail-preview img, #residential-preview img{
-    display:block;
     max-width:100%;
     height:120px;
     width:150px;
-     
-   
+
 }
 
 /*--recreation-Preview---*/
-
+ 
 #recreation-preview {
-    column-count:2;
+    display:flex;
+    justify-content: space-between;
 }
 
 #recreation-preview img {
-    display:block;
     height:120px;
-    max-width:100%;
+    max-width:100%;  
 }
 
+ 
  /*---------All Image slider related pages----------*/
 
 
