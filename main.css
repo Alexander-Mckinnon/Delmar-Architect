@@ -9,6 +9,9 @@ body, html{
     height:100vh;
 }
 
+header{
+    text-align: center;
+}
 .wrapper{
     min-height:100%;
     margin-bottom:-199px;
