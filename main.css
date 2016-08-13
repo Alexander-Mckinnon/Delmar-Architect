@@ -71,33 +71,27 @@ nav ul{
 
 #firm-history{
     text-align: center;
-    width:70%;
-    float:left;
     margin-top:3%;
     background-color:darkgrey;
 }
 
-#contact-info{
-    text-align: center;
-    width:30%;
-    float:right;
-    margin-top:3%;
+.home-team-wrap{
+    margin-bottom: -185px;
 }
 
-@media(max-width:527px){
-    #firm-history{
-        width:100%;
-    }
-    #contact-info{
-        width:100%;
-    }   
+#contact-info{
+    text-align: center;
+    background-color:darkgray;
+    height:185px;
 }
+
+
 /*--------------------------*/
  /*----The Team-------*/
 
 #team{
     background-color:darkgrey;
-    margin:2%;
+    margin:2% 2% 0% 2%;
     text-align: center;
 }
 
@@ -108,7 +102,7 @@ nav ul{
     padding-bottom: 5%;
 }
 
-
+ 
  /*------------Project specific-------------------*/
 #project-image{
     text-align: center;
@@ -124,8 +118,6 @@ nav ul{
 #school-preview {
     column-count: 10;
     column-gap:1px;
-     
-
 }
 
 
