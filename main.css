@@ -54,7 +54,11 @@ nav ul{
     column-count: 3;
 }
  
-
+#project-nav{
+     color:white;
+    text-align: center;
+    
+}
 #project-nav ul{
     column-count:2;
 }
